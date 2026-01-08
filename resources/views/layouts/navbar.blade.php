@@ -1,15 +1,15 @@
 
 <header id="header">
     <div class="container header-container">
-        <a href="index.html" class="logo">
+        <a href="<?= route('home') ?>" class="logo">
         
         <img src="<?= IMAGE_PATH.'/navbar/nxon_white_logo.webp' ?>" class="logo-icon logo-light">
         <img src="<?= IMAGE_PATH.'/navbar/logo.webp' ?>" class="logo-icon logo-dark">
         </a>
         <ul class="nav-menu">
-            <li><a href="<?= route('about') ?>" data-link="<?= route('about') ?>">About Us</a></li>
+            <li><a href="<?= route('about') ?>" data-link="<?= route('about') ?>">About Nxon</a></li>
             <li class="has-mega-menu">
-                <a href="#">Services</a>
+                <a href="#">What We do</a>
                 <!-- MEGA MENU -->
                 <div class="mega-menu">
                     <div class="mega-left">
@@ -17,12 +17,12 @@
                         <div class="mega-column">
                             <h3>Cameras & Sensors</h3>
                             <ul class="mega-list">
-                                <li><a href="./bodycamfinal.html" class="default-item" data-img="<?= IMAGE_PATH.'/home/bodycam1.webp' ?>">Bodycam</a></li>
-                                <li><a href="./dashcam.html" data-img="<?= IMAGE_PATH.'/home/Dashcam.webp' ?>">Dashcam</a>
+                                <li><a href="<?= route('services','bodycam') ?>" class="default-item" data-img="<?= IMAGE_PATH.'/home/bodycam1.webp' ?>">Bodycam</a></li>
+                                <li><a href="<?= route('services','dashcam') ?>" data-img="<?= IMAGE_PATH.'/home/Dashcam.webp' ?>">Dashcam</a>
                                 </li>   
-                                <li><a href="./droncam.html" data-img="<?= IMAGE_PATH.'/home/droncam1.webp' ?>">DroneCam</a>
+                                <li><a href="<?= route('services','dronecam') ?>" data-img="<?= IMAGE_PATH.'/home/droncam1.webp' ?>">DroneCam</a>
                                 </li>
-                                <li><a href="./IPcamera.html" data-img="<?= IMAGE_PATH.'/home/IPCam.webp' ?>">IP Camera</a>
+                                <li><a href="<?= route('services','ipcam') ?>" data-img="<?= IMAGE_PATH.'/home/IPCam.webp' ?>">IP Camera</a>
                                 </li>
                                 </li>
                             </ul>
@@ -54,8 +54,9 @@
                 </div>
                 <!-- RIGHT IMAGE PREVIEW -->
             </li>
-            <li><a href="#" data-link="solution.html">Solution</a></li>
-            <li><a href="#" data-link="career.html">Career</a></li>
+            <li><a href="#" data-link="solution.html">Industry</a></li>
+            <li><a href="#" data-link="solution.html">Our work</a></li>
+            {{-- <li><a href="#" data-link="career.html">Career</a></li> --}}
             <li><a href="#" data-link="blog.html">Blog</a></li>
         </ul>
         <button class="contact-btn"><a href="contact.html">Contact us</a></button>

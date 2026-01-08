@@ -3850,7 +3850,7 @@
 			position: fixed;
 			position: fixed;
 			inset: 0;
-			background: linear-gradient(135deg, rgba(0, 0, 0, 0.8) 0%, rgba(25, 25, 50, 0.8) 100%), url('../Image/home/camera2.webp') center/cover no-repeat;
+			background: linear-gradient(135deg, rgba(0, 0, 0, 0.8) 0%, rgba(25, 25, 50, 0.8) 100%), url('../img/home/camera2.webp') center/cover no-repeat;
 			display: flex;
 			justify-content: center;
 			align-items: center;
@@ -7116,7 +7116,7 @@ h1 {
 
 /*********************bodycam***************************/
    .bodycamera-hero-pro {
-            background: url('../Image/solutions/bodycam/bodyhero2.webp') center/cover no-repeat;
+            background: url('../img/solutions/bodycam/bodyhero2.webp') center/cover no-repeat;
             position: relative;
             min-height: 100vh;
             /* background: radial-gradient(circle at top, #0f1c2d, var(--bg)); */
@@ -7128,34 +7128,34 @@ h1 {
 
 
         .body-img1 {
-            background-image: url(../Image/solutions/bodycam/bodycamhardware.webp);
+            background-image: url(../img/solutions/bodycam/bodycamhardware.webp);
         }
 
         .body-img2 {
-            background-image: url(../Image/solutions/bodycam/ISPTuning.webp);
+            background-image: url(../img/solutions/bodycam/ISPTuning.webp);
         }
 
         .body-img3 {
-            background-image: url(../Image/solutions/bodycam/cameralensbodycam.webp);
+            background-image: url(../img/solutions/bodycam/cameralensbodycam.webp);
         }
 
         .body-img4 {
-            background-image: url(../Image/solutions/bodycam/embeddedfirmwarebody.webp);
+            background-image: url(../img/solutions/bodycam/embeddedfirmwarebody.webp);
         }
 
         .body-img5 {
-            background-image: url(../Image/solutions/bodycam/audiobodycamera.webp);
+            background-image: url(../img/solutions/bodycam/audiobodycamera.webp);
         }
 
         .body-img6 {
-            background-image: url(../Image/solutions/bodycam/videoencoding.webp);
+            background-image: url(../img/solutions/bodycam/videoencoding.webp);
         }
 
         .body-img7 {
-            background-image: url(../Image/solutions/bodycam/aicamerabodycam.webp);
+            background-image: url(../img/solutions/bodycam/aicamerabodycam.webp);
         }
 		.body-img8 {
-            background-image: url(../Image/solutions/bodycam/ruggedbodycamera.webp);
+            background-image: url(../img/solutions/bodycam/ruggedbodycamera.webp);
         }
 
 
@@ -7483,11 +7483,11 @@ h1 {
 }
 
 /* Example backgrounds */
-.c1 { background-image: url("../Image/solutions/bodycam/lowlightbodycamera.webp"); }
-.c2 { background-image: url("../Image/solutions/bodycam/widedynamicbodycamera.webp"); }
-.c3 { background-image: url("../Image/solutions/bodycam/multimicrophone.webp"); }
-.c4 { background-image: url("../Image/solutions/bodycam/clearmotionbodycamera1.webp"); }
-.c5 { background-image: url("../Image/solutions/bodycam/VideoSynchronization1.jpg"); }
+.c1 { background-image: url("../img/solutions/bodycam/lowlightbodycamera.webp"); }
+.c2 { background-image: url("../img/solutions/bodycam/widedynamicbodycamera.webp"); }
+.c3 { background-image: url("../img/solutions/bodycam/multimicrophone.webp"); }
+.c4 { background-image: url("../img/solutions/bodycam/clearmotionbodycamera1.webp"); }
+.c5 { background-image: url("../img/solutions/bodycam/VideoSynchronization1.jpg"); }
 
 /* Responsive */
 /* =========================
@@ -7899,7 +7899,7 @@ h1 {
      
 
         .drone-hero-pro {
-            background: url('../Image/solutions/dronecam/dronehero6.webp') center/cover no-repeat;
+            background: url('../img/solutions/dronecam/dronehero6.webp') center/cover no-repeat;
             position: relative;
             min-height: 100vh;
             /* background: radial-gradient(circle at top, #0f1c2d, var(--bg)); */
@@ -7909,7 +7909,7 @@ h1 {
         }
 
 		   .dash-hero-pro {
-            background: url('../Image/solutions/dashcam/dashcamhero.webp') center/cover no-repeat;
+            background: url('../img/solutions/dashcam/dashcamhero.webp') center/cover no-repeat;
             position: relative;
             min-height: 100vh;
             /* background: radial-gradient(circle at top, #0f1c2d, var(--bg)); */
@@ -8073,7 +8073,6 @@ h1 {
             gap: 80px;
             align-items: center;
         }
-        
 
       
         .drone-arch-left img {
@@ -8213,12 +8212,6 @@ h1 {
             gap: 80px;
             align-items: center;
         }
-        .nvr-box{
-            width: 100%;
-    max-width: 1650px;
-    margin: 0 auto;
-    padding: 5px 20px;
-        }
 
         .drone-process-text h2 {
             font-size: 2.5rem;
@@ -8250,19 +8243,8 @@ h1 {
             font-size: 0.9rem;
         }
 
-       
-
         .drone-process-image img {
             width: 100%;
-            border-radius: 8px;
-            box-shadow: 0 30px 70px rgba(0, 0, 0, 0.6);
-        }
-
-
-       
-
-         .nvr-process-image img {
-            width: 700px;
             border-radius: 8px;
             box-shadow: 0 30px 70px rgba(0, 0, 0, 0.6);
         }
@@ -8378,7 +8360,7 @@ h1 {
         .drone-case-card {
             /* padding-top: 140px; */
             position: sticky;
-            top: 60%;
+            top: 50%;
             transform: translateY(-50%);
             height: 700px;
             margin-bottom: 32px;
@@ -8389,8 +8371,8 @@ h1 {
             overflow: hidden;
 z-index: 1;
             background: #020b1c;
-        will-change: transform, filter, opacity;
-  
+             will-change: transform, filter;
+  transition: filter 0.4s ease, transform 0.4s ease, opacity 0.4s ease;
         }
 
         .drone-case-card.blurred {
@@ -8484,31 +8466,31 @@ filter: blur(6px);
 
         /* Images */
         .drone-img1 {
-            background-image: url(../Image/solutions/dronecam/cameradesignhardware.webp);
+            background-image: url(../img/solutions/dronecam/cameradesignhardware.webp);
         }
 
         .drone-img2 {
-            background-image: url(../Image/solutions/dronecam/ImageSensor.webp);
+            background-image: url(../img/solutions/dronecam/ImageSensor.webp);
         }
 
         .drone-img3 {
-            background-image: url(../Image/solutions/dronecam/LensSelection.webp);
+            background-image: url(../img/solutions/dronecam/LensSelection.webp);
         }
 
         .drone-img4 {
-            background-image: url(../Image/solutions/dronecam/GimbalStabilizationIntegration.webp);
+            background-image: url(../img/solutions/dronecam/GimbalStabilizationIntegration.webp);
         }
 
         .drone-img5 {
-            background-image: url(../Image/solutions/dronecam/EmbeddedFirmwareDrivers.webp);
+            background-image: url(../img/solutions/dronecam/EmbeddedFirmwareDrivers.webp);
         }
 
         .drone-img6 {
-            background-image: url(../Image/solutions/dronecam/AIComputerVisionPipelineIntegration.webp);
+            background-image: url(../img/solutions/dronecam/AIComputerVisionPipelineIntegration.webp);
         }
 
         .drone-img7 {
-            background-image: url(../Image/solutions/dronecam/EnvironmentalHardening.webp);
+            background-image: url(../img/solutions/dronecam/EnvironmentalHardening.webp);
         }
 
 
@@ -8516,34 +8498,34 @@ filter: blur(6px);
 
 
 		.dash-img1 {
-            background-image: url(../Image/solutions/dashcam/hardwarepcbdash.webp);
+            background-image: url(../img/solutions/dashcam/hardwarepcbdash.webp);
         }
 
         .dash-img2 {
-            background-image: url(../Image/solutions/dashcam/imagesensor.webp);
+            background-image: url(../img/solutions/dashcam/imagesensor.webp);
         }
 
         .dash-img3 {
-            background-image: url(../Image/solutions/dronecam/LensSelection.webp);
+            background-image: url(../img/solutions/dronecam/LensSelection.webp);
         }
 
         .dash-img4 {
-            background-image: url(../Image/solutions/dashcam/EmbeddedFirmware.webp);
+            background-image: url(../img/solutions/dashcam/EmbeddedFirmware.webp);
         }
 
         .dash-img5 {
-            background-image: url(../Image/solutions/dashcam/VideoCompression.webp);
+            background-image: url(../img/solutions/dashcam/VideoCompression.webp);
         }
 
         .dash-img6 {
-            background-image: url(../Image/solutions/dashcam/ComputerVision.webp);
+            background-image: url(../img/solutions/dashcam/ComputerVision.webp);
         }
 
         .dash-img7 {
-            background-image: url(../Image/solutions/dashcam/Automotive-Grade.webp);
+            background-image: url(../img/solutions/dashcam/Automotive-Grade.webp);
         }
 		.dash-img8 {
-            background-image: url(../Image/solutions/dashcam/EnvironmentalAutomotive.webp);
+            background-image: url(../img/solutions/dashcam/EnvironmentalAutomotive.webp);
         }
 
 
@@ -10645,7 +10627,7 @@ margin-top: 70px;
 .ip-hero-premium {
   position: relative;
   min-height: 100vh;
-  background: url("/Image/solutions/ipcamera/iphero.jpg") center / contain no-repeat;
+  background: url("../img/solutions/ipcamera/iphero.jpg") center / contain no-repeat;
   
   display: flex;
   flex-direction: column;
@@ -10813,7 +10795,7 @@ margin-top: 70px;
   transform: translateX(-50%) scaleY(-1);
   width: 100%;
   height: 100%;
-  background: url("/Image/solutions/ipcamera/iphero.webp") center / contain no-repeat;
+  background: url("../img/solutions/ipcamera/iphero.webp") center / contain no-repeat;
   opacity: 0.15;
   filter: blur(2px);
 }
@@ -11000,23 +10982,23 @@ margin-top: 70px;
 
 
         .IP-img1 {
-            background-image: url(../Image/solutions/ipcamera/opticengineering.webp);
+            background-image: url(../img/solutions/ipcamera/opticengineering.webp);
         }
 
         .IP-img2 {
-            background-image: url(../Image/solutions/ipcamera/NetworkPerformance.webp);
+            background-image: url(../img/solutions/ipcamera/NetworkPerformance.webp);
         }
 
         .IP-img3 {
-            background-image: url(../Image/solutions/ipcamera/securitybydesign.webp);
+            background-image: url(../img/solutions/ipcamera/securitybydesign.webp);
         }
 
         .IP-img4 {
-            background-image: url(../Image/solutions/ipcamera/long-tremscalablity.webp);
+            background-image: url(../img/solutions/ipcamera/long-tremscalablity.webp);
         }
 
         .IP-img5 {
-            background-image: url(../Image/solutions/ipcamera/ComplianceFlexibility.webp);
+            background-image: url(../img/solutions/ipcamera/ComplianceFlexibility.webp);
         }
 
 
@@ -11032,218 +11014,190 @@ margin-top: 70px;
 
 
 
+/* Responsive */
 
-.center-slider-section {
-  padding: 120px 0;
-  background: radial-gradient(circle at top, #101426, #05070f 70%);
-  color: #fff;
+
+
+
+.streaming-header {
   text-align: center;
+  /* max-width: 800px; */
+  margin: 0 auto 80px;
+}
+.streaming-header h2{
+  font-size: 3rem;
+  font-weight: 500;
 }
 
-.center-title {
-      font-size: 3rem;
-    font-weight: 500;
-    margin-bottom: 10px;
+.streaming-header p {
+ font-size: 1.2rem;
+ color: #a2a2a3;
 }
 
-.center-title span {
-  color: #3b82f6;
+.streaming-section {
+  padding: 100px 0%;
 }
 
-.center-subtitle {
-  font-size: 18px;
-  color: #9aa4bf;
-  margin-bottom: 70px;
-}
-
-.center-slider-wrap {
-  position: relative;
-  max-width: 1400px;
-  margin: auto;
-    overflow: visible;
-}
-
-.center-arrow {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 52px;
-  height: 52px;
-  border-radius: 50%;
-  border: none;
-  background: #ffffff15;
+.slick-hscroll .hscroll-card {
+     background: linear-gradient(rgb(17 33 71 / 52%) 0%, rgba(15, 15, 15, 0.71) 100%);
+    box-shadow: rgba(255, 255, 255, 0.35) 0px 0px 29px -18px inset, rgba(0, 0, 0, 0.55) 0px 30px 70px 41px; background: #020b1c;
+  padding: 32px;
+  border-radius: 18px;
+  margin: 0 12px;
   color: white;
-  font-size: 26px;
-  cursor: pointer;
-  transition: 0.3s;
-  z-index: 5;
-}
 
-.center-arrow:hover {
-  background: #4ea1ff;
-}
-
-.center-arrow.prev { left: -70px; }
-.center-arrow.next { right: -70px; }
-
-.hscroll-card {
-  padding: 0 20px;
-}
-
-.hscroll-content {
-background: linear-gradient(rgb(17 33 71 / 52%) 0%, rgba(15, 15, 15, 0.71) 100%);
-    box-shadow: rgba(255, 255, 255, 0.35) 0px 0px 29px -18px inset, rgba(0, 0, 0, 0.55) 0px 30px 70px 41px;
-  border-radius: 22px;
-  padding: 40px;
-  display: flex;
-  align-items: center;
-  gap: 40px;
- max-width: 880px;
-  margin: auto;
-  box-shadow: 0 20px 40px rgba(0,0,0,0.4);
-  transition: all 0.4s ease;
-  opacity: 0.35;
-  transform: scale(0.92);
-}
-
-.slick-center .hscroll-content {
+  transform: scale(0.94);
   opacity: 1;
-  transform: scale(1);
+  transition: all 0.5s ease;
 }
 
-.hscroll-left {
-  flex: 1;
-  text-align: left;
+
+.slick-hscroll .slick-center .hscroll-card {
+  transform: scale(0.9);   /* center slightly smaller */
+  opacity: 1;
 }
 
-.hscroll-left h2,
-.hscroll-left h3 {
-  margin-bottom: 14px;
-  color: #ffffff;
+.slick-hscroll .slick-active:not(.slick-center) .hscroll-card {
+  transform: scale(0.95);
+  opacity: 0.7;
+}
+.streaming-controls {
+     position: relative;
+    top: -26px;
+    left: 87%;
+    display: flex;
+    gap: 22px;
+    z-index: 10;
+}
+.streaming-header span{
+     color: #3b82f6;
+}
+.stream-btn {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1px solid rgba(255,255,255,0.25);
+  background: rgba(5,10,20,0.7);
+  color: white;
+  font-size: 22px;
+  cursor: pointer;
+  transition: all 0.25s ease;
 }
 
-.hscroll-left p,
-.hscroll-left li {
-  color: #b7c1d6;
-  font-size: 1rem;
-  line-height: 1.6;
+.stream-btn:hover {
+  background: #3b82f6;
+  border-color: #3b82f6;
 }
-
-.hscroll-right {
-  flex: 1;
-  text-align: center;
+.hscroll-content {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  gap: 24px;
+  align-items: center;
 }
 
 .hscroll-right img {
-  max-width: 100%;
-  border-radius: 14px;
+  width: 100%;
+  border-radius: 12px;
 }
 
+.slick-prev, .slick-next {
+  top: -50px;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background: rgba(5,10,20,0.7);
+  z-index: 10;
+}
+
+.slick-prev { left: auto; right: 60px; }
+.slick-next { right: 0; }
+
+
 @media (max-width: 1024px) {
-  .center-title {
+  .streaming-header h2 {
     font-size: 2.4rem;
   }
 
-  .center-subtitle {
-    font-size: 16px;
-    margin-bottom: 50px;
+  .streaming-header p {
+    font-size: 1.05rem;
   }
 
-  .center-arrow {
-    width: 46px;
-    height: 46px;
-    font-size: 22px;
+  .slick-hscroll .hscroll-card {
+    padding: 28px;
   }
 
-  .center-arrow.prev { left: -50px; }
-  .center-arrow.next { right: -50px; }
-
-  .hscroll-content {
-    max-width: 760px;
-    padding: 32px;
-    gap: 32px;
+  .streaming-controls {
+    left: 80%;
+    top: -22px;
   }
 }
 
 
 @media (max-width: 768px) {
-  .center-slider-section {
-    padding: 90px 0;
+  .streaming-section {
+    padding: 80px 0;
   }
 
-  .center-title {
-    font-size: 2rem;
+  .streaming-header {
+    margin-bottom: 60px;
+    padding: 0 20px;
   }
 
-  .center-subtitle {
-    font-size: 15px;
-    margin-bottom: 40px;
+  .streaming-header h2 {
+    font-size: 2.1rem;
   }
 
- .center-arrow {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 44px;
-    height: 44px;
-    font-size: 22px;
-    top: auto;
-    bottom: 250px;  /* move below slider */
-    transform: none;
+  .streaming-header p {
+    font-size: 1rem;
   }
 
-  .center-arrow.prev {
-    left: 3%;
-  }
-
-  .center-arrow.next {
-    right: 3%;
+  .slick-hscroll .hscroll-card {
+    padding: 24px;
+    margin: 0 8px;
   }
 
   .hscroll-content {
-    flex-direction: column;
-    max-width: 90%;
+    grid-template-columns: 1fr;
+    gap: 18px;
     text-align: center;
-    padding: 28px;
-    gap: 24px;
   }
 
-  .hscroll-left {
-    text-align: center;
+  .streaming-controls {
+           padding: 10px;
+        gap: 11px;
+        left: 49%;
+        transform: translateX(-50%);
+        top: -18px;
   }
 }
 
 
 @media (max-width: 480px) {
-  .center-slider-section {
-    padding: 70px 0;
-  }
-
-  .center-title {
+  .streaming-header h2 {
     font-size: 1.7rem;
   }
 
-  .center-subtitle {
-    font-size: 14px;
-    margin-bottom: 32px;
-  }
-
-  .hscroll-content {
-    padding: 22px;
-    border-radius: 18px;
-  }
-
-  .hscroll-left h2,
-  .hscroll-left h3 {
-    font-size: 1.3rem;
-  }
-
-  .hscroll-left p,
-  .hscroll-left li {
+  .streaming-header p {
     font-size: 0.95rem;
   }
-}
 
+  .slick-hscroll .hscroll-card {
+    padding: 20px;
+    border-radius: 14px;
+  }
+
+  .hscroll-right img {
+    border-radius: 10px;
+  }
+
+  .stream-btn,
+  .slick-prev,
+  .slick-next {
+    width: 38px;
+    height: 38px;
+    font-size: 18px;
+  }
+}
 
 
 
@@ -11494,700 +11448,6 @@ background: linear-gradient(rgb(17 33 71 / 52%) 0%, rgba(15, 15, 15, 0.71) 100%)
 .devstack-orange { --accent: #ff9f1c; }
 .devstack-purple { --accent: #a855f7; }
 .devstack-sky    { --accent: #38bdf8; }
-
-
-
-
-
-
-
-/**************************** NVR ****************************************/
-
-
-
-.nvr-hero {
-  position: relative;
-  height: 100vh;
-  background: url("../Image/NVR/nvrhero1.png") center/cover no-repeat;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  overflow: hidden;
-}
-
-.nvr-hero-overlay {
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(to bottom, rgba(5,7,15,0.5), rgba(5,7,15,0.65));
-  z-index: 1;
-}
-
-.nvr-hero-content {
-  position: relative;
-  z-index: 2;
-  max-width: 1000px;
-  padding: 0 20px;
-}
-
-.nvr-hero-title {
-  font-size: 4rem;
-  font-weight: 500;
-  line-height: 1.15;
-  color: #ffffff;
-  margin-bottom: 24px;
-}
-
-.nvr-hero-title span {
-  color: #4fa3ff;
-}
-
-.nvr-hero-subtitle {
-  font-size: 1.4rem;
-  color: #cbd5e1;
-  font-weight: 400;
-}
-
-#rotate-word {
-  color: #3b82f6;
-  font-weight: 600;
-  margin-left: 6px;
-  transition: opacity 0.4s ease, transform 0.4s ease;
-}
-
-
-.slot-word {
-  display: inline-block;
-  position: relative;
-  overflow: hidden;
-  height: 1.6em;
-  vertical-align: bottom;
-  transition: transform 0.45s ease, opacity 0.45s ease;
-}
-
-.slot-out {
-  transform: translateY(-1.2em);
-  opacity: 0;
-}
-
-.slot-in {
-  transform: translateY(1.2em);
-  opacity: 0;
-}
-
-
-/* Responsive */
-@media (max-width: 768px) {
-  .nvr-hero-title {
-    font-size: 2.6rem;
-  }
-  .nvr-hero-subtitle {
-    font-size: 1.1rem;
-  }
-}
-
-
-
-
-
-        .nvr-img1 {
-            background-image: url(../Image/solutions/ipcamera/opticengineering.webp);
-        }
-
-        .nvr-img2 {
-            background-image: url(../Image/solutions/ipcamera/NetworkPerformance.webp);
-        }
-
-        .nvr-img3 {
-            background-image: url(../Image/solutions/ipcamera/securitybydesign.webp);
-        }
-
-        .nvr-img4 {
-            background-image: url(../Image/solutions/ipcamera/long-tremscalablity.webp);
-        }
-
-
-
-.nvr-infographic {
-  padding: 120px 6%;
-  background: #05070f;
-  color: #e5e7eb;
-  text-align: center;
-}
-
-.small-title {
-  letter-spacing: 2px;
-  color: #7dd3fc;
-  margin-bottom: 6px;
-}
-
-.main-title {
-  font-size: 2.8rem;
-  margin-bottom: 80px;
-}
-
-.circle-layout {
-  position: relative;
-  width: 520px;
-  height: 520px;
-  margin: 0 auto;
-}
-
-.circle {
-  width: 100%;
-  height: 100%;
-  border-radius: 50%;
-  position: relative;
-  background:
-    conic-gradient(
-      #7dd3fc 0deg 90deg,
-      #a78bfa 90deg 180deg,
-      #60a5fa 180deg 270deg,
-      #818cf8 270deg 360deg
-    );
-  mask: radial-gradient(circle, transparent 60%, black 61%);
-}
-
-.seg {
-  position: absolute;
-  width: 80px;
-  height: 80px;
-    background: #0b1220;
-  border: 2px solid rgba(255,255,255,0.15);
-  box-shadow: 0 0 0 6px rgba(125, 211, 252, 0.08);
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-weight: 600;
-}
-
-.seg img {
-  width: 36px;
-  height: 36px;
-  object-fit: contain;
-  filter: brightness(1.1);
-}
-
-
-
-.s1 { top: 55px; left: 16%; transform: translateX(-50%); }
-.s2 { right: 55px; top: 16%; transform: translateY(-50%); }
-.s3 { bottom: 55px; left: 84%; transform: translateX(-50%); }
-.s4 { left: 55px; top: 84%; transform: translateY(-50%); }
-
-
-/* ring thickness ≈ 40px → move icons by 20px outward */
-
-
-
-
-.info {
-  position: absolute;
-  width: 260px;
-  font-size: 0.95rem;
-  line-height: 1.4;
-}
-
-.info h4 {
-  margin-bottom: 6px;
-  color: #ffffff;
-}
-
-.info small {
-  color: #7dd3fc;
-}
-
-.left { text-align: left; }
-.right { text-align: left; }
-
-.left.top { top: 0; left: -280px; }
-.right.top { top: 0; right: -280px; }
-
-.left.bottom { bottom: 0; left: -280px; }
-.right.bottom { bottom: 0; right: -280px; }
-
-
-
-
-.how-it-works-section {
-            padding: 0 0 100px 0;
-             background: radial-gradient(circle at center, rgba(10,15,35,0.45), rgba(3,5,15,0.9));
-        }
-
-        .nvr-section-header {
-            text-align: center;
-            margin-bottom: 80px;
-        }
-
-        .nvr-section-header .nvr-product-badge {
-            background-color: #32428057;
-            display: inline-block;
-            margin-bottom: 20px;
-        }
-
-          .nvr-product-badge {
-
-            margin-top: 50px;
-            display: inline-block;
-            background-color: #4a6cf7;
-            color: white;
-            font-weight: 600;
-            padding: 6px 14px;
-            border-radius: 20px;
-            font-size: 14px;
-            margin-bottom: 20px;
-        }
-
-        .nvr-section-header h2 {
-            font-size: 3rem;
-            font-weight: 500;
-            color: #fff;
-            margin-bottom: 20px;
-        }
-
-        .nvr-section-header p {
-            font-size: 1.2rem;
-            color: #cccccc;
-            max-width: 800px;
-            margin: 0 auto;
-        }
-
-        .nvr-workflow-container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 0 20px;
-        }
-
-        /* Circular Infographic Design */
-        .nvr-circular-infographic {
-            position: relative;
-            max-width: 1150px;
-            margin: 0 auto;
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            grid-template-rows: 1fr 1fr;
-            gap: 60px;
-            padding: 60px;
-        }
-
-        /* Center Circle */
-        .nvr-center-circle {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            width: 280px;
-            height: 280px;
-            background: linear-gradient(135deg, #0f365e 0%, #e9ecef 100%);
-            border-radius: 50%;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            box-shadow: 0 15px 50px rgba(0, 0, 0, 0.15);
-            z-index: 10;
-            border: 8px solid white;
-        }
-
-        .nvr-nvr-center-circle h3 {
-            font-size: 28px;
-            font-weight: 700;
-            color: var(--nxon-dark);
-            margin-bottom: 10px;
-        }
-
-        .nvr-center-dots {
-            display: flex;
-            gap: 8px;
-            margin-bottom: 15px;
-        }
-
-        .nvr-dot {
-            width: 10px;
-            height: 10px;
-            border-radius: 50%;
-        }
-
-        .nvr-dot:nth-child(1) {
-            background: #0a1931;
-        }
-
-        .nvr-dot:nth-child(2) {
-            background: #B3cfe5;
-        }
-
-        .nvr-dot:nth-child(3) {
-            background: #4a7fa7;
-        }
-
-        .nvr-dot:nth-child(4) {
-            background: #1a3d63;
-        }
-
-        .nvr-center-circle p {
-            font-size: 14px;
-            color: var(--text-secondary);
-            text-align: center;
-            line-height: 1.6;
-        }
-
-        /* Workflow Cards */
-        .nvr-workflow-card {
-            position: relative;
-            padding: 40px 30px;
-            border-radius: 30px;
-            display: flex;
-            flex-direction: column;
-            transition: all 0.4s ease;
-            min-height: 320px;
-        }
-
-        .nvr-workflow-card:hover {
-            transform: scale(1.05);
-            box-shadow: 0 20px 50px rgba(0, 0, 0, 0.15);
-            z-index: 5;
-        }
-
-        /* ===== Arrows Between Circular Workflow Cards ===== */
-
-        /* Common arrow styling */
-        .nvr-workflow-card::after {
-            content: "\f061";
-            /* arrow icon Font Awesome (right arrow) */
-            font-family: "Font Awesome 6 Free";
-            font-weight: 900;
-            font-size: 20px;
-            color: #fff;
-            position: absolute;
-            transform: translate(-50%, -50%);
-        }
-
-        /* Arrow from Step 01 → Step 02 */
-        .nvr-card-1::after {
-            top: 10%;
-            left: 25%;
-            transform: rotate(0deg);
-        }
-
-        /* Arrow from Step 02 → Step 03 */
-        .nvr-card-2::after {
-            top: 10%;
-            left: 69%;
-            transform: rotate(90deg);
-        }
-
-        /* Arrow from Step 03 → Step 04 */
-        .nvr-card-4::after {
-            /* this is your step 03 card */
-            top: 10%;
-            left: 69%;
-            transform: rotate(180deg);
-
-        }
-
-        /* Arrow from Step 04 → Step 01 */
-        .nvr-card-3::after {
-            /* this is your step 04 card */
-            top: 10%;
-            left: 28%;
-            transform: rotate(-90deg);
-        }
-
-
-        /* Card 1 - Top Left - Teal */
-        .nvr-workflow-card.nvr-card-1 {
-      background: linear-gradient(rgb(1 37 123 / 52%) 0%, rgb(45 62 96 / 71%) 100%);
-    box-shadow: rgb(255 255 255) 0px 0px 29px -18px inset, rgba(0, 0, 0, 0.55) 0px 30px 70px 41px;
-            color: white;
-            border-radius: 30px 30px 0 30px;
-            text-align: left;
-        }
-
-        /* Card 2 - Top Right - Yellow */
-        .nvr-workflow-card.nvr-card-2 {
-               background: linear-gradient(rgb(1 37 123 / 52%) 0%, rgb(45 62 96 / 71%) 100%);
-    box-shadow: rgb(255 255 255) 0px 0px 29px -18px inset, rgba(0, 0, 0, 0.55) 0px 30px 70px 41px;
-            color: white;
-            border-radius: 30px 30px 30px 0;
-            text-align: right;
-        }
-
-        /* Card 3 - Bottom Right - Purple */
-        .nvr-workflow-card.nvr-card-3 {
-            background: linear-gradient(rgb(1 37 123 / 52%) 0%, rgb(45 62 96 / 71%) 100%);
-    box-shadow: rgb(255 255 255) 0px 0px 29px -18px inset, rgba(0, 0, 0, 0.55) 0px 30px 70px 41px;
-            color: white;
-            border-radius: 30px 30px 30px 30px;
-            text-align: left;
-        }
-
-        /* Card 4 - Bottom Left - Red */
-        .nvr-workflow-card.nvr-card-4 {
-            background: linear-gradient(rgb(1 37 123 / 52%) 0%, rgb(45 62 96 / 71%) 100%);
-    box-shadow: rgb(255 255 255) 0px 0px 29px -18px inset, rgba(0, 0, 0, 0.55) 0px 30px 70px 41px;
-            color: white;
-            border-radius: 30px 30px 30px 30px;
-            text-align: right;
-        }
-
-        .nvr-step-badge {
-            font-size: 14px;
-            font-weight: 600;
-            letter-spacing: 1px;
-            margin-bottom: 15px;
-            opacity: 0.9;
-        }
-
-        .nvr-step-title {
-            font-size: 2.5rem;
-            font-weight: 500;
-            margin-bottom: 20px;
-            line-height: 1;
-        }
-
-        .nvr-step-description {
-            font-size: 14px;
-            line-height: 1.7;
-            opacity: 0.95;
-            margin-bottom: 20px;
-        }
-
-        /* Icon Container */
-        .nvr-icon-container {
-            width: 50px;
-            height: 50px;
-            background: rgba(255, 255, 255, 0.25);
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin-top: auto;
-        }
-
-        .nvr-card-1 .nvr-icon-container,
-        .nvr-card-4 .nvr-icon-container {
-            align-self: flex-start;
-        }
-
-        .nvr-card-2 .nvr-icon-container,
-        .nvr-card-3 .nvr-icon-container {
-            align-self: flex-end;
-        }
-
-        .nvr-icon-container i {
-            font-size: 24px;
-            color: white;
-        }
-
-
-        @media (max-width: 1024px) {
-  .nvr-section-header h2 {
-    font-size: 2.5rem;
-  }
-
-  .nvr-section-header p {
-    font-size: 1.05rem;
-  }
-
-  .nvr-circular-infographic {
-    padding: 40px;
-    gap: 40px;
-  }
-
-  .nvr-center-circle {
-    width: 240px;
-    height: 240px;
-  }
-
-  .nvr-step-title {
-    font-size: 2.1rem;
-  }
-}
-
-
-@media (max-width: 768px) {
-  .nvr-circular-infographic {
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
-    padding: 20px;
-  }
-
-  .nvr-center-circle {
-    position: relative;
-    transform: none;
-    top: auto;
-    left: auto;
-    margin: 0 auto 20px;
-  }
-
-  .nvr-workflow-card {
-    min-height: auto;
-    text-align: left !important;
-  }
-
-  .nvr-workflow-card::after {
-    display: none; /* hide arrows */
-  }
-
-  .nvr-step-title {
-    font-size: 2rem;
-  }
-}
-
-
-@media (max-width: 480px) {
-  .how-it-works-section {
-    padding: 70px 0;
-  }
-
-  .nvr-section-header h2 {
-    font-size: 1.9rem;
-  }
-
-  .nvr-section-header p {
-    font-size: 0.95rem;
-  }
-
-  .nvr-center-circle {
-    width: 200px;
-    height: 200px;
-    padding: 20px;
-  }
-
-  .nvr-step-title {
-    font-size: 1.6rem;
-  }
-
-  .nvr-step-description {
-    font-size: 13px;
-  }
-
-  .nvr-icon-container {
-    width: 44px;
-    height: 44px;
-  }
-}
-
-
-
-.nx-serv-section {
-  padding: 100px 6%;
-background: radial-gradient(circle at top left, #0d1a33, #030712);
-  
-}
-
-.nx-serv-grid-layout {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 30px;
-}
-
-/* Heading block behaves like a card */
-.nx-serv-left {
-  background: transparent;
-  padding: 20px 10px;
-}
-
-.nx-serv-tag {
-  color: #3b82f6;
-  font-weight: 600;
-  font-size: 0.9rem;
-}
-
-.nx-serv-title {
-  font-size: 3rem;
-  margin: 12px 0;
-  color: #fff;
-  line-height: 1.1;
-}
-
-.nx-serv-desc {
-  color: #cccccc;
-  line-height: 1.6;
-  max-width: 320px;
-}
-.nx-serv-card {
-  height: 320px;
-}
-/* Cards */
-.nx-serv-card {
-  background: rgba(255, 255, 255, 0.1);
-    border: 1px solid rgba(255, 255, 255, 0.2);
-    backdrop-filter: blur(15px);
-    box-shadow: 0 30px 60px rgba(0, 0, 0, 0.6);
-  padding: 30px 28px 28px;
-  border-radius: 18px;
-  
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.nx-serv-card:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 18px 40px rgba(0,0,0,0.08);
-}
-
-.nx-serv-icon {
-  width: 46px;
-  height: 46px;
-  border-radius: 50%;
-  display: grid;
-  place-items: center;
-  color: #fff;
-  font-size: 1.2rem;
-  margin-bottom: 18px;
-}
-
-.pink { background: #ff5b9f; }
-.yellow { background: #f7c948; }
-.orange { background: #ff8f3d; }
-.teal { background: #20c997; }
-.purple { background: #7c5cff; }
-
-.nx-serv-card-title {
-  font-size: 1.2rem;
-  margin-bottom: 10px;
-  color: #fff;
-}
-
-.nx-serv-card-desc {
-  color: #cccccc;
-  font-size: 0.95rem;
-  line-height: 1.5;
-  margin-bottom: 16px;
-}
-
-.nx-serv-link {
-  font-weight: 600;
-  color: #222;
-  text-decoration: none;
-}
-
-.nx-serv-link:hover {
-  text-decoration: underline;
-}
-
-/* Responsive */
-@media (max-width: 900px) {
-  .nx-serv-grid-layout {
-    grid-template-columns: repeat(2, 1fr);
-  }
-
-  .nx-serv-left {
-    grid-column: 1 / -1;
-  }
-}
-
-@media (max-width: 600px) {
-  .nx-serv-grid-layout {
-    grid-template-columns: 1fr;
-  }
-
-  .nx-serv-title {
-    font-size: 2.2rem;
-  }
-}
 
 
 

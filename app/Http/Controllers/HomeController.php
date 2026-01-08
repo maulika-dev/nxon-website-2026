@@ -13,4 +13,17 @@ class HomeController extends Controller
     public function about(){
         return view('about.index');
     }
+
+    public function service($slug){
+        if($slug === 'bodycam'){
+            return view('services.bodycam');
+        }else if($slug == 'dashcam'){
+            return view('services.dashcam');
+        }else if($slug === 'dronecam'){
+            return view('services.drone');
+        }else if($slug === 'ipcam'){
+            return view('services.ipcam');
+        }
+        
+    }
 }

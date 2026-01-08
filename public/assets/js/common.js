@@ -152,6 +152,19 @@ items.forEach(item => {
     });
 });
 
+// Loading screen
+    const loader = document.getElementById('loader');
+    const mainContent = document.getElementById('main-contant');
+    if (loader && mainContent) {
+        setTimeout(() => {
+            loader.classList.add('hidden');
+        
+            // SHOW WEBSITE CONTENT
+            mainContent.style.opacity = "1";
+            mainContent.style.pointerEvents = "auto";
+        }, 1000);
+    }
+
 
 
 

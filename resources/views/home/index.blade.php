@@ -601,7 +601,7 @@
             </div>
             <div class="contact-numbers">
                 <p>
-                    <img src="./Image/home/indiaflag.webp" alt="India Flag" class="flag-icon">
+                    <img src="<?= IMAGE_PATH.'/home/indiaflag.webp'?>" alt="India Flag" class="flag-icon">
                     079 4039 97389
                 </p>
             </div>
@@ -1208,19 +1208,6 @@
         card.style.transition = 'all 0.5s ease';
         observered.observe(card);
     });
-
-    // Loading screen
-    const loader = document.getElementById('loader');
-    const mainContent = document.getElementById('main-contant');
-    if (loader && mainContent) {
-        setTimeout(() => {
-            loader.classList.add('hidden');
-        
-            // SHOW WEBSITE CONTENT
-            mainContent.style.opacity = "1";
-            mainContent.style.pointerEvents = "auto";
-        }, 1000);
-    }
 
     document.addEventListener("scroll", () => {
         const elements = document.querySelectorAll(".fade-in-up, .slide-from-left, .slide-from-right");

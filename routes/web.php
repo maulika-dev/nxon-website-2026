@@ -13,3 +13,7 @@ Route::namespace('App\Http\Controllers')->group(function (){
 Route::namespace('App\Http\Controllers')->group(function (){
     Route::get('/about','HomeController@about')->name('about');
 });
+
+Route::namespace('App\Http\Controllers')->group(function (){
+    Route::get('/services/{slug}','HomeController@service')->name('services');
+});
